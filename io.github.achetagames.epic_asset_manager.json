@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.achetagames.epic_asset_manager",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
+  "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "command": "epic_asset_manager",
   "sdk-extensions": [
@@ -41,8 +41,8 @@
         {
           "type" : "git",
           "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-          "tag": "1.0.0-alpha.2",
-          "commit" : "f5932ab4250c8e709958c6e75a1a4941a5f0f386"
+          "tag": "1.0.0-alpha.3",
+          "commit" : "40c19ab2591763a482ebc79c82f1da32eea3bab6"
         }
       ],
       "modules" : [
@@ -82,8 +82,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.2.1/epic_asset_manager-2.2.1.tar.xz",
-          "sha256": "fb712733f6abf6f7a372a569946b689ceac4d8d41c07124f3ec386673893e0cd"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.3.0/epic_asset_manager-2.3.0.tar.xz",
+          "sha256": "8457020580ed8fde0b4ffd8e01e6e96132c5e9e66c42b80e563d65bcbd278723"
         }
       ]
     }
