@@ -82,8 +82,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.5.1/epic_asset_manager-2.5.1.tar.xz",
-          "sha256": "04b3b167278e3f61daefcb59e4c28713d161fc74bcb708301018dc18651f64e5"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.6.1/epic_asset_manager-2.6.1.tar.xz",
+          "sha256": "9246375f065610a7334a174301124c40ccd6da3ae3a59d485e4f3b23bfc8fb57"
         }
       ]
     }
