@@ -41,8 +41,8 @@
         {
           "type" : "git",
           "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-          "tag": "1.0.0.alpha.3",
-          "commit" : "40c19ab2591763a482ebc79c82f1da32eea3bab6"
+          "tag": "1.0.0.alpha.4",
+          "commit" : "6b447fde8f270001a0dc29ef59d3e9bf6d32dae9"
         }
       ],
       "modules" : [
@@ -82,8 +82,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.7.4/epic_asset_manager-2.7.4.tar.xz",
-          "sha256": "516c76e2d172340a06d8173f1096ad27aa4f42e2b3171fdfea331f51f31b9653"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v2.8.0/epic_asset_manager-2.8.0.tar.xz",
+          "sha256": "4cc6ff12041d2fa747e9ae0aaee3b5f9126ddf2ae637833f320904145139ad60"
         }
       ]
     }
