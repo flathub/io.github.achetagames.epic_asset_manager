@@ -36,8 +36,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.6.1/epic_asset_manager-3.6.1.tar.xz",
-          "sha256": "2c22b62a44027c2dd2512c86665adf4e99e7794290aa747a6c604ebe1c191fc9"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.6.2/epic_asset_manager-3.6.2.tar.xz",
+          "sha256": "d060364941a7fad6b42b4dd02dedb5c08bf635d50fa7ce5ce2ebbc35d73e821c"
         }
       ]
     }
