@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.achetagames.epic_asset_manager",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "43",
   "sdk": "org.gnome.Sdk",
   "command": "epic_asset_manager",
   "sdk-extensions": [
@@ -36,8 +36,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.7.1/epic_asset_manager-3.7.1.tar.xz",
-          "sha256": "4917404949d88c41e854e54dafc7a2849036fe2d0ea3019de23a0a2d84d2eebd"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.8.0/epic_asset_manager-3.8.0.tar.xz",
+          "sha256": "2f3e21e4f7d3f06244ea595fd76080be798ad15063f9f3b2a365494cd5a998c4"
         }
       ]
     }
