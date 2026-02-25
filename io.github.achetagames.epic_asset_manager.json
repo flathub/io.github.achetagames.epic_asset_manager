@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.achetagames.epic_asset_manager",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "epic_asset_manager",
   "sdk-extensions": [
@@ -15,9 +15,7 @@
     "--filesystem=host",
     "--talk-name=org.freedesktop.secrets",
     "--talk-name=org.freedesktop.Flatpak",
-    "--device=dri",
-    "--env=G_MESSAGES_DEBUG=none",
-    "--env=RUST_LOG=epic_asset_manager=trace"
+    "--device=dri"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -33,14 +31,20 @@
       "config-opts": [
         "-Dprofile=default"
       ],
+      "cleanup": ["/include", "/lib/pkgconfig", "*.a", "*.la"],
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.8.6/epic_asset_manager-3.8.6.tar.xz",
-          "sha256": "5313d22b742c877f98769284504eb257ea1fedb97f84d44cef9246adc91aa664"
+          "url": "https://github.com/AchetaGames/Epic-Asset-Manager/releases/download/v3.9.2/epic_asset_manager-3.9.2.tar.xz",
+          "sha256": "f3813a64302807e078a5ca230f1ccf660b46b79200ea7aedae5fef23a2e79598",
+          "x-checker-data": {
+            "type": "json",
+            "url": "https://api.github.com/repos/AchetaGames/Epic-Asset-Manager/releases/latest",
+            "version-query": ".tag_name | sub(\"^v\"; \"\")",
+            "url-query": ".assets[] | select(.name==\"epic_asset_manager-\" + $version + \".tar.xz\") | .browser_download_url"
+          }
         }
       ]
     }
   ]
 }
-
